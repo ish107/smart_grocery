@@ -1,0 +1,45 @@
+.bclr{
+    background-color: greenyellow;
+}
+
+.product-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 10px;
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+.icon{
+    color: brown;
+    margin: 5px;
+}
+
+table {
+    border-collapse: inherit;
+}
+.thead-light {
+    background-color: rgb(231, 231, 231);
+    font-weight: 400;
+}
+.thead-light th {
+    font-weight: 500;
+}
+
+table tbody tr td {
+    cursor: pointer;
+}
+table tbody tr.active td {
+    background-color: lightcoral;
+}
+
+.btn-xs{
+    margin: 1px;
+    border-radius: 2px;
+}
+
+.btn-outline-primary :hover{
+    background-color: cornflowerblue !important;;
+    border-color: cornflowerblue !important;;
+
+}
